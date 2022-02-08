@@ -102,3 +102,23 @@
     ```sh
     ls $(facter rubysitedir)/puppet/type
     ```
+### Simple sample of resources
+- Installation of `OpenSSH` package
+  ```pp
+  package { 'openssh':
+     ensure   => present,
+  }
+  ```
+- Creation of `/etc/motd` file
+  ```pp
+  file { 'motd':
+     path   => '/etc/motd',
+  }
+  ```
+- Start of `http` service
+  ```pp
+  service { 'httpd':
+      ensure => running,
+      enable => true,
+  }
+  ```
