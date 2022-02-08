@@ -27,7 +27,9 @@
 
 - Debian, Ubuntu
     ```sh
-    wget https://apt.puppet.com/puppet7-release-focal.deb && sudo dpkg -i puppet7-release-focal.deb && sudo apt update
+    wget https://apt.puppet.com/puppet7-release-focal.deb && \
+    sudo dpkg -i puppet7-release-focal.deb && \
+    sudo apt update
     ```
     ```sh
     sudo apt install puppet-agent   # On Client (Nodes)
