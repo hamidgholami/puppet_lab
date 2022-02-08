@@ -1,5 +1,8 @@
 # Learning Puppet
 
+[![Twitter Follow](https://img.shields.io/twitter/follow/045_hamid?label=045_hamid&style=plastic&logo=twitter&color=blue)](https://twitter.com/045_hamid)
+[![GitHub Follow](https://img.shields.io/github/followers/hamidgholami?label=hamidgholami&style=plastic&logo=github&color=green)](https://github.com/hamidgholami)
+[![Linkedin Badge](https://img.shields.io/badge/hamid--gholami-LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/hamid-gholami/)
 
 ### What is Puppet?
 
@@ -15,6 +18,7 @@
 - [Example42](https://blog.example42.com/tutorials/PuppetTutorial/)
 - [Example42 in github](https://github.com/example42)
 - [hackr.io](https://hackr.io/tutorials/learn-puppet)
+- [Puppet CookBook](https://www.puppetcookbook.com/)
 
 ### Software related to Puppet
 
