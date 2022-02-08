@@ -12,7 +12,8 @@
 ### Reference
 
 - [Puppet Documentation](https://puppet.com/docs/)
-- [example42](https://blog.example42.com/tutorials/PuppetTutorial/)
+- [Example42](https://blog.example42.com/tutorials/PuppetTutorial/)
+- [Example42 in github](https://github.com/example42)
 
 ### Software related to Puppet
 
