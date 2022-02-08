@@ -69,3 +69,36 @@
   - **facts** generated directly by the <ins>client</ins>.
   - **parameters** obtained from node's classification.
   - Puppet **internal** variables.
+
+### Resource Types
+- Resource Types are single units of configuration composed by:
+  - A **type** (package, service, file, user, mount, exec ...)
+  - A **title** (how is called and referred)
+  - Zero or more **arguments**.
+    ```
+    type { 'title':
+      argument  => value,
+      other_arg => value,
+    }
+    ```
+    Example for a **file** resource type:
+    ```pp
+    file { 'motd':
+      path     => '/etc/motd',
+      content  => 'Let's learning Puppet :)'
+    }
+    ```
+
+### Resource Type refrence
+- From the shell the command line interface:
+    ```sh
+    puppet describe file
+    ```
+- For the full list of available descriptions try:
+    ```sh
+    puppet describe --list
+    ```
+- Puppet code for the list of native resource types:
+    ```sh
+    ls $(facter rubysitedir)/puppet/type
+    ```
