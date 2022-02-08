@@ -14,6 +14,7 @@
 - [Puppet Documentation](https://puppet.com/docs/)
 - [Example42](https://blog.example42.com/tutorials/PuppetTutorial/)
 - [Example42 in github](https://github.com/example42)
+- [hackr.io](https://hackr.io/tutorials/learn-puppet)
 
 ### Software related to Puppet
 
