@@ -129,3 +129,16 @@
       enable => true,
   }
   ```
+
+* * *
+### TO DO
+<details>
+<summary> Preview </summary>
+
+- [ ] Complete Puppet learning in README.md file
+- [ ] `Vagrantfile` for creating  Puppet server-client environment.
+- [ ] `docker-compose.yml` for creating puppet server instance
+- [ ] Configuring `puppetdb` and `fireman`
+- [ ] Creating a secanrio with this environment and Puppet. (preferably install `k8s-lab` through Puppet)
+
+</details>
